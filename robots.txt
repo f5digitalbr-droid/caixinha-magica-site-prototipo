@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# IA / GEO — permitir crawlers de mecanismos de resposta
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://caixinhamagicapresentes.com.br/sitemap.xml
