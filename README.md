@@ -23,17 +23,19 @@ Abra `index.html` em qualquer navegador (duplo clique). Todas as páginas são n
 ## O que precisa ser preenchido (buscar por estes textos)
 | Placeholder | Onde | Substituir por |
 |---|---|---|
-| `5551999999999` | todos os links wa.me | número real do WhatsApp |
-| `(51) 99999-9999` | textos visíveis | número formatado real |
-| `[CONFIRMAR HORÁRIO]` / `[CONFIRMAR]` | home, contato, rodapés | horário real |
 | `caixinhamagicapresentes.com.br` | canonical, og:url, schema, sitemap | domínio real |
 | `[PLACEHOLDER — história real...]` | quem-somos.html | história contada pelo cliente |
 | Blocos "FOTO: ..." | todas as páginas | fotos reais (cada bloco sugere o enquadramento) |
+| Logos das fábricas | produtos.html (seção "Marcas que trabalhamos") | ver `levantamento-logos-marcas.docx` |
 | Depoimentos | home | avaliações reais |
 | `og-capa.jpg` | meta og:image | criar arte 1200×630 |
+| Coordenadas `geo` no schema (index.html) | aproximadas para a Chácara das Pedras | latitude/longitude exatas do Google Maps p/ o novo endereço |
 
 ## Dados confirmados da loja
 - **Razão social:** Caixinha Magica Presentes LTDA — CNPJ 62.164.712/0001-01
-- **Endereço:** Rua Dr. Ernesto Ludwig, 501, Loja 2 — Chácara das Pedras, Porto Alegre/RS, CEP 91330-420
+- **Endereço:** Rua Dr. Jorge Fayet, 624 — Chácara das Pedras, Porto Alegre/RS, CEP 91330-330
+- **Horário:** Segunda a sexta, 9h às 18h30 · Sábado, 9h às 17h
+- **WhatsApp:** (51) 98910-3293
 - **Instagram:** @caixinhamagica.presentes
+- **Entrega:** até 3h em Porto Alegre (motoboy) · todo o Brasil pelos Correios
 - **Identidade visual:** Manual em `G:\_F5 - HD\Artes\CAIXINHA MÁGICA PRESENTES\MIV\` (cores e logos replicados em `css/style.css` e `assets/`)

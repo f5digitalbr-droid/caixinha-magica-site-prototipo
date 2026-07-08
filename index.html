@@ -38,22 +38,30 @@
     "url": "https://caixinhamagicapresentes.com.br/",
     "image": "https://caixinhamagicapresentes.com.br/assets/og-capa.jpg",
     "logo": "https://caixinhamagicapresentes.com.br/assets/logo-principal.svg",
-    "telephone": "+55 51 99999-9999",
+    "telephone": "+55 51 98910-3293",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Rua Dr. Ernesto Ludwig, 501, Loja 2",
+      "streetAddress": "Rua Dr. Jorge Fayet, 624",
       "addressLocality": "Porto Alegre",
       "addressRegion": "RS",
-      "postalCode": "91330-420",
+      "postalCode": "91330-330",
       "addressCountry": "BR"
     },
     "geo": { "@type": "GeoCoordinates", "latitude": -30.028, "longitude": -51.157 },
-    "openingHoursSpecification": [{
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-      "opens": "09:00",
-      "closes": "19:00"
-    }],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "09:00",
+        "closes": "18:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Saturday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    ],
     "priceRange": "$$",
     "sameAs": ["https://www.instagram.com/caixinhamagica.presentes/"]
   }
@@ -66,12 +74,12 @@
       {
         "@type": "Question",
         "name": "Onde fica a Caixinha Mágica Presentes?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Estamos na Rua Dr. Ernesto Ludwig, 501, Loja 2, no bairro Chácara das Pedras, em Porto Alegre/RS. Pertinho do Country Club e da Av. Nilo Peçanha." }
+        "acceptedAnswer": { "@type": "Answer", "text": "Estamos na Rua Dr. Jorge Fayet, 624, no bairro Chácara das Pedras, em Porto Alegre/RS. Atendemos de segunda a sexta das 9h às 18h30 e aos sábados das 9h às 17h." }
       },
       {
         "@type": "Question",
         "name": "Vocês fazem entrega de presentes em Porto Alegre?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Sim! Você escolhe o presente pelo Instagram ou WhatsApp, a gente embrulha com carinho e combina a entrega ou retirada na loja." }
+        "acceptedAnswer": { "@type": "Answer", "text": "Sim! Entregamos em Porto Alegre em até 3 horas via motoboy e enviamos para todo o Brasil pelos Correios. É só escolher o presente pelo Instagram ou WhatsApp que a gente embrulha com carinho e combina a entrega ou a retirada na loja." }
       },
       {
         "@type": "Question",
@@ -115,7 +123,7 @@
       <a href="contato.html">Contato</a>
     </nav>
 
-    <a class="btn btn--zap header__cta" href="https://wa.me/5551999999999?text=Oi!%20Quero%20uma%20ajudinha%20para%20escolher%20um%20presente%20%F0%9F%8E%81" target="_blank" rel="noopener">
+    <a class="btn btn--zap header__cta" href="https://wa.me/5551989103293?text=Oi!%20Quero%20uma%20ajudinha%20para%20escolher%20um%20presente%20%F0%9F%8E%81" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5 13.9c-.2.6-1.2 1.2-1.7 1.2-.4.1-1 .1-1.6-.1a13 13 0 0 1-5.7-5C6.9 10.5 6.6 9 7 8.3c.2-.4.6-1 1.1-1h.6c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .6l-.5.8c-.1.2-.2.4 0 .7.5.8 1.9 2.2 3.3 2.8.3.1.5.1.7-.1l.8-.9c.2-.3.4-.2.7-.1l1.9.9c.3.2.5.3.5.4 0 .2 0 .6-.2 1Z" fill="currentColor" stroke="none"/></svg>
       Pedir no WhatsApp
     </a>
@@ -133,16 +141,17 @@
     <div class="fundo-confete" aria-hidden="true"></div>
     <div class="container grid-2">
       <div>
-        <span class="hero__badge">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3Z"/></svg>
+        <a class="hero__badge" href="#visite">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
           Loja física na Chácara das Pedras · Porto Alegre
-        </span>
+          <svg class="hero__badge__seta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14"/><path d="m6 13 6 6 6-6"/></svg>
+        </a>
         <h1 id="titulo-hero">Presentes que abrem <span class="rabisco">sorrisos<svg viewBox="0 0 120 12" preserveAspectRatio="none" aria-hidden="true"><path d="M3 9C30 3 60 3 117 8" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg></span> em Porto Alegre</h1>
         <p class="texto-suave" style="font-size:1.13rem; max-width:46ch;">
           Brinquedos escolhidos a dedo, presentes criativos e itens <strong>personalizados em impressão 3D</strong> — tudo embrulhado com carinho, pronto para encantar quem você ama.
         </p>
         <div class="hero__acoes">
-          <a class="btn btn--zap" href="https://wa.me/5551999999999?text=Oi!%20Quero%20uma%20ajudinha%20para%20escolher%20um%20presente%20%F0%9F%8E%81" target="_blank" rel="noopener">
+          <a class="btn btn--zap" href="https://wa.me/5551989103293?text=Oi!%20Quero%20uma%20ajudinha%20para%20escolher%20um%20presente%20%F0%9F%8E%81" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5 13.9c-.2.6-1.2 1.2-1.7 1.2-.4.1-1 .1-1.6-.1a13 13 0 0 1-5.7-5C6.9 10.5 6.6 9 7 8.3c.2-.4.6-1 1.1-1h.6c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .6l-.5.8c-.1.2-.2.4 0 .7.5.8 1.9 2.2 3.3 2.8.3.1.5.1.7-.1l.8-.9c.2-.3.4-.2.7-.1l1.9.9c.3.2.5.3.5.4 0 .2 0 .6-.2 1Z" fill="currentColor" stroke="none"/></svg>
             Escolher um presente
           </a>
@@ -153,8 +162,11 @@
         </div>
         <div class="hero__meta">
           <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Embrulho grátis</span>
-          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Atendimento pelo WhatsApp</span>
-          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Retirada na loja</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Entrega em até 3h em Porto Alegre</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Envio para todo o Brasil</span>
+          <a href="#visite">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> Ver localização e horário
+          </a>
         </div>
       </div>
 
@@ -234,17 +246,17 @@
       <div class="centro" style="max-width:640px; margin-inline:auto; margin-bottom:44px;">
         <span class="kicker">o que você procura hoje?</span>
         <h2 id="titulo-categorias">Um cantinho para cada tipo de presente</h2>
-        <p class="texto-suave">Do chá de bebê à festa de 10 anos — a gente ajuda a acertar em cheio.</p>
+        <p class="texto-suave">Da primeira infância à festa de 10 anos — a gente ajuda a acertar em cheio.</p>
       </div>
 
       <div class="grid-3">
-        <a class="card-categoria card-categoria--rosa" href="produtos.html#bebes">
-          <div class="card-categoria__foto" role="img" aria-label="Espaço para foto de produtos da categoria Bebês e Primeira Infância">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v12H4Z"/><circle cx="12" cy="13" r="3.5"/></svg>
-            <span>FOTO: produtos da loja — Bebês</span>
+        <a class="card-categoria card-categoria--rosa" href="produtos.html#neurodivergentes">
+          <div class="card-categoria__foto" role="img" aria-label="Espaço para foto de produtos para crianças neurodivergentes">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18.178 8c5.096 0 5.096 8 0 8-5.095 0-7.133-8-12.229-8-5.096 0-5.096 8 0 8 5.096 0 7.135-8 12.229-8z"/></svg>
+            <span>FOTO: produtos da loja — Neurodivergentes</span>
           </div>
-          <h3>Bebês & Primeira Infância</h3>
-          <p>Mordedores, pelúcias, brinquedos sensoriais e presentes de chá de bebê.</p>
+          <h3>Neurodivergência & Sensorial</h3>
+          <p>Brinquedos sensoriais, kits calmantes e itens pensados para crianças autistas, com TDAH ou outras necessidades.</p>
           <span class="card-categoria__cta">Ver ideias
             <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
           </span>
@@ -365,7 +377,7 @@
           A Caixinha Mágica Presentes nasceu na Chácara das Pedras com uma missão simples: fugir da prateleira igual à de qualquer loja. Aqui a curadoria é pensada para <strong>contribuir com o desenvolvimento de cada criança</strong> — nada de brinquedo genérico só para preencher espaço.
         </p>
         <p class="texto-suave">
-          Cada produto tem um porquê: estimular a imaginação, a coordenação ou a curiosidade da fase em que a criança está. Somos uma loja de bairro, vizinha, parceira das famílias de Porto Alegre. E quando o presente precisa ser único, nossa impressora 3D entra em ação.
+          Cada produto tem um porquê: estimular a imaginação, a coordenação ou a curiosidade da fase em que a criança está — e isso inclui uma seleção pensada para crianças neurodivergentes. Somos uma loja de bairro, vizinha, parceira das famílias de Porto Alegre. E quando o presente precisa ser único, nossa impressora 3D entra em ação.
         </p>
         <a class="btn btn--coral" href="quem-somos.html" style="margin-top:8px;">
           Conhecer nossa história
@@ -496,11 +508,11 @@
       <div class="faq">
         <details>
           <summary>Onde fica a Caixinha Mágica Presentes?</summary>
-          <p>Estamos na <strong>Rua Dr. Ernesto Ludwig, 501, Loja 2 — Chácara das Pedras, Porto Alegre/RS</strong>. Pertinho do Country Club e da Av. Nilo Peçanha, com fácil acesso e estacionamento na rua.</p>
+          <p>Estamos na <strong>Rua Dr. Jorge Fayet, 624 — Chácara das Pedras, Porto Alegre/RS</strong>. Atendemos de segunda a sexta das 9h às 18h30 e aos sábados das 9h às 17h.</p>
         </details>
         <details>
           <summary>Vocês fazem entrega de presentes em Porto Alegre?</summary>
-          <p>Sim! Você escolhe o presente pelo Instagram ou WhatsApp, a gente embrulha com carinho e combina a entrega ou a retirada na loja — o que for mais fácil para você.</p>
+          <p>Sim! Entregamos em Porto Alegre em <strong>até 3 horas via motoboy</strong> e enviamos para <strong>todo o Brasil pelos Correios</strong>. É só escolher o presente pelo Instagram ou WhatsApp que a gente embrulha com carinho e combina a entrega ou a retirada na loja.</p>
         </details>
         <details>
           <summary>O que são os presentes personalizados em impressão 3D?</summary>
@@ -521,7 +533,7 @@
   <!-- ============================================================
        VISITE A LOJA — Elementor: Container 2 col (Google Maps widget)
        ============================================================ -->
-  <section class="secao revela" aria-labelledby="titulo-visite">
+  <section id="visite" class="secao revela" aria-labelledby="titulo-visite">
     <div class="container grid-2">
       <div>
         <span class="kicker kicker--verde">vem ver de pertinho</span>
@@ -529,15 +541,19 @@
         <div class="info-contato">
           <div class="info-contato__item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-            <p><b>Endereço</b>Rua Dr. Ernesto Ludwig, 501 — Loja 2<br>Chácara das Pedras, Porto Alegre/RS · CEP 91330-420</p>
+            <p><b>Endereço</b>Rua Dr. Jorge Fayet, 624<br>Chácara das Pedras, Porto Alegre/RS · CEP 91330-330</p>
           </div>
           <div class="info-contato__item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
-            <p><b>Horário de atendimento</b>Segunda a sábado, das 9h às 19h <em>[CONFIRMAR HORÁRIO]</em></p>
+            <p><b>Horário de atendimento</b>Segunda a sexta, das 9h às 18h30. Sábado, das 9h às 17h.</p>
           </div>
           <div class="info-contato__item">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5 13.9c-.2.6-1.2 1.2-1.7 1.2-.4.1-1 .1-1.6-.1a13 13 0 0 1-5.7-5C6.9 10.5 6.6 9 7 8.3c.2-.4.6-1 1.1-1h.6c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .6l-.5.8c-.1.2-.2.4 0 .7.5.8 1.9 2.2 3.3 2.8.3.1.5.1.7-.1l.8-.9c.2-.3.4-.2.7-.1l1.9.9c.3.2.5.3.5.4 0 .2 0 .6-.2 1Z" fill="currentColor" stroke="none"/></svg>
-            <p><b>WhatsApp</b><a href="https://wa.me/5551999999999" target="_blank" rel="noopener">(51) 99999-9999</a> <em>[SUBSTITUIR PELO NÚMERO REAL]</em></p>
+            <p><b>WhatsApp</b><a href="https://wa.me/5551989103293" target="_blank" rel="noopener">(51) 98910-3293</a></p>
+          </div>
+          <div class="info-contato__item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3" width="15" height="13"/><path d="M16 8h4l3 3v5h-7V8Z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            <p><b>Entrega</b>Até 3h em Porto Alegre (motoboy) · todo o Brasil pelos Correios</p>
           </div>
         </div>
       </div>
@@ -567,7 +583,7 @@
           <a href="https://www.instagram.com/caixinhamagica.presentes/" target="_blank" rel="noopener" aria-label="Instagram da Caixinha Mágica Presentes">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".9" fill="currentColor" stroke="none"/></svg>
           </a>
-          <a href="https://wa.me/5551999999999" target="_blank" rel="noopener" aria-label="WhatsApp da Caixinha Mágica Presentes">
+          <a href="https://wa.me/5551989103293" target="_blank" rel="noopener" aria-label="WhatsApp da Caixinha Mágica Presentes">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5 13.9c-.2.6-1.2 1.2-1.7 1.2-.4.1-1 .1-1.6-.1a13 13 0 0 1-5.7-5C6.9 10.5 6.6 9 7 8.3c.2-.4.6-1 1.1-1h.6c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .6l-.5.8c-.1.2-.2.4 0 .7.5.8 1.9 2.2 3.3 2.8.3.1.5.1.7-.1l.8-.9c.2-.3.4-.2.7-.1l1.9.9c.3.2.5.3.5.4 0 .2 0 .6-.2 1Z" fill="currentColor" stroke="none"/></svg>
           </a>
         </div>
@@ -586,7 +602,7 @@
       <div>
         <h3>Presentes por ocasião</h3>
         <ul>
-          <li><a href="produtos.html#bebes">Chá de bebê</a></li>
+          <li><a href="produtos.html#neurodivergentes">Brinquedos sensoriais</a></li>
           <li><a href="produtos.html#jogos">Aniversário infantil</a></li>
           <li><a href="produtos.html#educativos">Volta às aulas</a></li>
           <li><a href="presentes-personalizados.html">Lembrancinhas de festa</a></li>
@@ -597,15 +613,15 @@
         <ul>
           <li class="footer__item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-            <span>Rua Dr. Ernesto Ludwig, 501, Loja 2<br>Chácara das Pedras — Porto Alegre/RS</span>
+            <span>Rua Dr. Jorge Fayet, 624<br>Chácara das Pedras — Porto Alegre/RS</span>
           </li>
           <li class="footer__item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
-            <span>Seg a sáb · 9h às 19h [CONFIRMAR]</span>
+            <span>Seg a sex 9h–18h30 · Sáb 9h–17h</span>
           </li>
           <li class="footer__item">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5 13.9c-.2.6-1.2 1.2-1.7 1.2-.4.1-1 .1-1.6-.1a13 13 0 0 1-5.7-5C6.9 10.5 6.6 9 7 8.3c.2-.4.6-1 1.1-1h.6c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .6l-.5.8c-.1.2-.2.4 0 .7.5.8 1.9 2.2 3.3 2.8.3.1.5.1.7-.1l.8-.9c.2-.3.4-.2.7-.1l1.9.9c.3.2.5.3.5.4 0 .2 0 .6-.2 1Z" fill="currentColor" stroke="none"/></svg>
-            <span><a href="https://wa.me/5551999999999" target="_blank" rel="noopener">(51) 99999-9999</a></span>
+            <span><a href="https://wa.me/5551989103293" target="_blank" rel="noopener">(51) 98910-3293</a></span>
           </li>
         </ul>
       </div>
@@ -618,7 +634,7 @@
 </footer>
 
 <!-- Botão flutuante de WhatsApp -->
-<a class="zap-flutuante" href="https://wa.me/5551999999999?text=Oi!%20Vim%20pelo%20site%20da%20Caixinha%20M%C3%A1gica%20%F0%9F%8E%81" target="_blank" rel="noopener" aria-label="Conversar no WhatsApp">
+<a class="zap-flutuante" href="https://wa.me/5551989103293?text=Oi!%20Vim%20pelo%20site%20da%20Caixinha%20M%C3%A1gica%20%F0%9F%8E%81" target="_blank" rel="noopener" aria-label="Conversar no WhatsApp">
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5 13.9c-.2.6-1.2 1.2-1.7 1.2-.4.1-1 .1-1.6-.1a13 13 0 0 1-5.7-5C6.9 10.5 6.6 9 7 8.3c.2-.4.6-1 1.1-1h.6c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .6l-.5.8c-.1.2-.2.4 0 .7.5.8 1.9 2.2 3.3 2.8.3.1.5.1.7-.1l.8-.9c.2-.3.4-.2.7-.1l1.9.9c.3.2.5.3.5.4 0 .2 0 .6-.2 1Z" fill="currentColor" stroke="none"/></svg>
 </a>
 

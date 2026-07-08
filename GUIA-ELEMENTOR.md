@@ -85,7 +85,7 @@ Este guia mapeia o protótipo HTML para **widgets nativos do Elementor + Element
 Hero interno (Heading + Text + Image blob) → História (2 col: Image + Text Editor) → Valores (3× Icon Box em cards) → Faixa CTA coral → Visite a loja (template salvo da home).
 
 ### Produtos (`produtos.html`)
-Hero centralizado com 2 botões → **Marcas que trabalhamos**: grid de 11 Image Box (logo + nome + linha de produto) — trocar cada placeholder de câmera pela logo real assim que chegar (ver `levantamento-logos-marcas.docx`) → por categoria: Container com âncora (CSS ID: `bebes`, `educativos`, `jogos`, `criativos`, `pelucias`) + grid 4 col de **Image Box + Button** (cada card de categoria tem foto placeholder no topo — trocar pela foto real do produto) → seção "Como comprar" (3× Icon Box numerado em fundo coral).
+Hero centralizado com 2 botões → **Marcas que trabalhamos**: grid de 12 Image Box (logo + nome da marca) — trocar cada placeholder de câmera pela logo real assim que chegar (ver `levantamento-logos-marcas.docx`) → por categoria: Container com âncora (CSS ID: `neurodivergentes`, `educativos`, `jogos`, `criativos`, `pelucias`) + grid 4 col de **Image Box + Button** (cada card de categoria tem foto placeholder no topo — trocar pela foto real do produto) → seção "Como comprar" (3× Icon Box numerado em fundo coral).
 > Futuro WooCommerce: substituir os grids por **Loop Grid/Products** sem mudar o layout.
 
 ### Personalizados 3D (`presentes-personalizados.html`)
@@ -112,10 +112,13 @@ Hero centralizado → 2 col: Icon List de canais + Google Maps | **Form** (Eleme
 
 ## 5. Checklist de substituições antes de publicar
 
-- [ ] `5551999999999` → número real do WhatsApp (busca e substituição em todas as páginas)
-- [ ] `[CONFIRMAR HORÁRIO]` → horário real de funcionamento (também no schema `openingHoursSpecification`)
+- [x] WhatsApp real: (51) 98910-3293
+- [x] Horário real: seg-sex 9h-18h30, sáb 9h-17h
+- [x] Endereço real: Rua Dr. Jorge Fayet, 624, Chácara das Pedras, Porto Alegre/RS, CEP 91330-330
 - [ ] `caixinhamagicapresentes.com.br` → domínio real contratado
 - [ ] Foto placeholders → fotos reais (cada placeholder tem sugestão de foto)
+- [ ] Logos das 12 fábricas parceiras (ver `levantamento-logos-marcas.docx`)
+- [ ] Coordenadas `geo` exatas no schema (index.html) para o endereço atual
 - [ ] `og-capa.jpg` → criar imagem de compartilhamento 1200×630
 - [ ] História real em Quem Somos (marcada com `[PLACEHOLDER]`)
 - [ ] Depoimentos ilustrativos → avaliações reais (Google/Instagram)

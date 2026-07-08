@@ -192,13 +192,19 @@ p  { margin: 0 0 1em; }
   background: var(--branco); border-radius: 999px;
   padding: 8px 18px; font-weight: 600; font-size: .92rem;
   box-shadow: var(--shadow-card); margin-bottom: 18px;
-  color: var(--ink);
+  color: var(--ink); text-decoration: none;
+  transition: transform .15s ease, box-shadow .15s ease;
 }
-.hero__badge svg { width: 18px; height: 18px; color: var(--laranja-escuro); }
+a.hero__badge:hover { transform: translateY(-1px); box-shadow: var(--shadow-pop); }
+.hero__badge svg { width: 18px; height: 18px; color: var(--laranja-escuro); flex: none; }
+.hero__badge__seta { width: 14px !important; height: 14px !important; color: var(--ink-suave) !important; margin-left: 2px; }
 .hero__acoes { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 26px; }
 .hero__meta { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 26px; font-size: .95rem; color: var(--ink-suave); }
-.hero__meta span { display: inline-flex; align-items: center; gap: 7px; }
+.hero__meta span, .hero__meta a { display: inline-flex; align-items: center; gap: 7px; }
 .hero__meta svg { width: 18px; height: 18px; color: var(--verde-escuro); flex: none; }
+.hero__meta a { color: var(--coral-escuro); font-weight: 700; text-decoration: none; }
+.hero__meta a:hover { text-decoration: underline; }
+.hero__meta a svg { color: var(--coral-escuro); }
 
 /* Visual do hero: moldura blob (Elementor: Image com border-radius custom) */
 .blob-frame {
