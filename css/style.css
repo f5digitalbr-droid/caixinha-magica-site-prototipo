@@ -259,23 +259,28 @@ p  { margin: 0 0 1em; }
 /* Card de categoria (Elementor: Image Box / Call to Action) */
 .card-categoria {
   display: flex; flex-direction: column; gap: 6px;
-  border-radius: var(--radius-card); padding: 28px 24px 26px;
+  border-radius: var(--radius-card); padding: 16px 20px 22px;
   text-decoration: none; color: var(--ink);
   box-shadow: var(--shadow-card);
   transition: transform .2s ease, box-shadow .2s ease;
   min-height: 190px;
 }
 .card-categoria:hover { transform: translateY(-6px) rotate(-.6deg); box-shadow: var(--shadow-pop); }
-.card-categoria__icone {
-  width: 58px; height: 58px; border-radius: 18px;
-  display: grid; place-items: center;
+
+/* Placeholder de foto real do produto/categoria — trocar por foto da loja
+   (Elementor: Image widget, substituir pela foto e apagar este bloco) */
+.card-categoria__foto {
+  aspect-ratio: 16 / 10; border-radius: 18px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px;
   background: rgba(255, 255, 255, .55);
-  margin-bottom: 10px;
+  margin-bottom: 12px; padding: 10px; text-align: center;
 }
-.card-categoria__icone svg { width: 30px; height: 30px; }
+.card-categoria__foto svg { width: 32px; height: 32px; opacity: .8; }
+.card-categoria__foto span { font-size: .74rem; font-weight: 700; line-height: 1.3; color: var(--ink); }
+
 .card-categoria h3 { margin-bottom: 2px; }
 .card-categoria p { font-size: .93rem; margin: 0; color: var(--ink-suave); }
-.card-categoria span {
+.card-categoria span.card-categoria__cta {
   margin-top: auto; padding-top: 10px; font-weight: 700; font-size: .95rem;
   display: inline-flex; align-items: center; gap: 6px; color: var(--coral-escuro);
 }
@@ -342,6 +347,24 @@ p  { margin: 0 0 1em; }
 }
 .faq details[open] summary::after { transform: rotate(-135deg); }
 .faq details p { padding-bottom: 18px; margin: 0; color: var(--ink-suave); }
+
+/* Tira de marcas parceiras (Elementor: Container com Image Box em grid,
+   ou o widget "Logo Carousel" do Elementor Pro quando os logos reais chegarem) */
+.marcas-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+@media (min-width: 640px) { .marcas-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 980px) { .marcas-grid { grid-template-columns: repeat(5, 1fr); } }
+.marca-logo {
+  background: var(--branco); border-radius: 18px; box-shadow: var(--shadow-card);
+  padding: 16px 14px; text-align: center;
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+}
+.marca-logo__caixa {
+  width: 100%; aspect-ratio: 16 / 9; border-radius: 12px; background: var(--creme-2);
+  display: grid; place-items: center; color: var(--ink-suave);
+}
+.marca-logo__caixa svg { width: 24px; height: 24px; }
+.marca-logo b { font-size: .88rem; }
+.marca-logo small { font-size: .74rem; line-height: 1.3; color: var(--ink-suave); }
 
 /* ---------- Blog ---------- */
 .card-post {
